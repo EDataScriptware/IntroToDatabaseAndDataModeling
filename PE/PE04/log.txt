@@ -1,0 +1,498 @@
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\PE\PE04\createCONTACT_INFO.sql
+ERROR 1046 (3D000): No database selected
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\PE\PE04\createCONTACT_INFO.sql
+ERROR 1046 (3D000): No database selected
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\PE\PE04\insertContact_Info.sql
+ERROR 1046 (3D000): No database selected
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\PE\PE04\createCONTACT_INFO.sql
+ERROR 1046 (3D000): No database selected
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\PE\PE04\createCONTACT_INFO.sql
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1046 (3D000): No database selected
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\PE\PE04\insertContact_Info.sql
+ERROR 1046 (3D000): No database selected
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\PE\PE04\insertContact_Info.sql
+ERROR 1049 (42000): Unknown database 'database'
+ERROR 1046 (3D000): No database selected
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\PE\PE04\insertContact_Info.sql
+Database changed
+ERROR 1146 (42S02): Table 'pe04.contact_info' doesn't exist
+mysql> 
+mysql> 
+mysql> 
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\PE\PE04\createCONTACT_INFO.sql
+Query OK, 0 rows affected (0.09 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1046 (3D000): No database selected
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\PE\PE04\createCONTACT_INFO.sql
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1046 (3D000): No database selected
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\PE\PE04\createCONTACT_INFO.sql
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Database changed
+Query OK, 0 rows affected (0.12 sec)
+
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\PE\PE04\insertContact_Info.sql
+Database changed
+Query OK, 1 row affected (0.01 sec)
+
+mysql> describe pe04;
+ERROR 1146 (42S02): Table 'pe04.pe04' doesn't exist
+mysql> describe contact_info;
++-----------------------+--------------+------+-----+---------+-------+
+| Field                 | Type         | Null | Key | Default | Extra |
++-----------------------+--------------+------+-----+---------+-------+
+| contactID             | int(11)      | NO   | PRI | NULL    |       |
+| firstname             | varchar(15)  | YES  |     | NULL    |       |
+| middleinitial         | char(1)      | YES  |     | NULL    |       |
+| lastname              | varchar(25)  | YES  |     | NULL    |       |
+| suffix_description    | varchar(5)   | YES  |     | NULL    |       |
+| title_description     | varchar(5)   | YES  |     | NULL    |       |
+| jobtitle              | varchar(35)  | YES  |     | NULL    |       |
+| department            | varchar(30)  | YES  |     | NULL    |       |
+| email                 | varchar(40)  | YES  |     | NULL    |       |
+| url                   | varchar(55)  | YES  |     | NULL    |       |
+| IMaddress             | varchar(25)  | YES  |     | NULL    |       |
+| phone_number          | varchar(20)  | YES  |     | NULL    |       |
+| phonetype_description | varchar(8)   | YES  |     | NULL    |       |
+| birthday              | date         | YES  |     | NULL    |       |
+| notes                 | varchar(255) | YES  |     | NULL    |       |
+| companyname           | varchar(35)  | YES  |     | NULL    |       |
+| street1               | varchar(45)  | YES  |     | NULL    |       |
+| street2               | varchar(45)  | YES  |     | NULL    |       |
+| city                  | varchar(25)  | YES  |     | NULL    |       |
+| state_province        | varchar(20)  | YES  |     | NULL    |       |
+| zip_postalcode        | varchar(10)  | YES  |     | NULL    |       |
+| country_region        | varchar(15)  | YES  |     | NULL    |       |
+| company_url           | varchar(45)  | YES  |     | NULL    |       |
+| company_phone         | varchar(12)  | YES  |     | NULL    |       |
++-----------------------+--------------+------+-----+---------+-------+
+24 rows in set (0.00 sec)
+
+mysql> exit
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\PE\PE04\createCONTACT_INFO.sql
+Query OK, 1 row affected (0.09 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Database changed
+Query OK, 0 rows affected (0.05 sec)
+
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\PE\PE04\insertContact_Info.sql
+Database changed
+Query OK, 1 row affected (0.01 sec)
+
+mysql> INSERT INTO contact_info (contactID, firstname, lastname, phone_number, phonetype_description) VALUES (10,'Jessica','Smith','888-888-8888','work'); 
+Query OK, 1 row affected (0.01 sec)
+
+mysql> INSERT INTO contact_info (contactID, firstname, lastname, phone_number, phonetype_description) VALUES (10,'Jessica','Smith','999-99-9999','cell'); 
+ERROR 1062 (23000): Duplicate entry '10' for key 'PRIMARY'
+mysql>  INSERT INTO contact_info (contactID, firstname, lastname, phone_number, phonetype_description) VALUES (10,'Jessica','Smith','999-99-9999','cell'); 
+ERROR 1062 (23000): Duplicate entry '10' for key 'PRIMARY'
+mysql>  INSERT INTO contact_info (contactID, firstname, lastname, phone_number, phonetype_description) VALUES (10,'Jessica','Smith','999-99-9999','cell'); 
+ERROR 1062 (23000): Duplicate entry '10' for key 'PRIMARY'
+mysql> exit
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\PE\PE04\createCONTACT_INFO.sql
+Query OK, 1 row affected (0.15 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Database changed
+Query OK, 0 rows affected (0.06 sec)
+
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\PE\PE04\insertContact_Info.sql
+Database changed
+Query OK, 1 row affected (0.02 sec)
+
+mysql> INSERT INTO contact_info (contactID, firstname, lastname, phone_number, phonetype_description) VALUES (10,'Jessica','Smith','888-888-8888','work'); 
+Query OK, 1 row affected (0.01 sec)
+
+mysql> INSERT INTO contact_info (contactID, firstname, lastname, phone_number, phonetype_description) VALUES (10,'Jessica','Smith','999-99-9999','cell'); 
+ERROR 1062 (23000): Duplicate entry '10' for key 'PRIMARY'
+mysql> ALTER contact_info
+    -> DROP primary_key;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'contact_info
+DROP primary_key' at line 1
+mysql> ALTER contact_info
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'contact_info' at line 1
+mysql> ALTER TABLE contact_info
+    -> DROP PRIMARY KEY;
+Query OK, 2 rows affected (0.20 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+mysql> ALTER TABLE contact_info
+    -> ADD PRIMARY contact_info_pk(contactID, phone_number);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'contact_info_pk(contactID, phone_number)' at line 2
+mysql> ALTER TABLE contact_info
+    -> ADD PRIMARY KEY contact_info_pk(contactID, phone_number);
+Query OK, 0 rows affected (0.17 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\PE\PE04\Riley_pe4.sql
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--statement 1
+INSERT INTO contact_info (
+contactID,
+firstname,
+lastname,
+phone_n' at line 1
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--statement 2
+INSERT INTO contact_info (
+contactID,
+firstname,
+lastname,
+phone_n' at line 1
+Query OK, 2 rows affected (0.18 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.14 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\PE\PE04\Riley_pe4.sql
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--statement 1
+INSERT INTO contact_info (
+contactID,
+firstname,
+lastname,
+phone_n' at line 1
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--statement 2
+INSERT INTO contact_info (
+contactID,
+firstname,
+lastname,
+phone_n' at line 1
+Query OK, 2 rows affected (0.41 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.11 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\PE\PE04\Riley_pe4.sql
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE contact_info' at line 2
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--statement 1
+INSERT INTO contact_info (
+contactID,
+firstname,
+lastname,
+phone_n' at line 1
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--statement 2
+INSERT INTO contact_info (
+contactID,
+firstname,
+lastname,
+phone_n' at line 1
+Query OK, 2 rows affected (0.22 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.22 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\PE\PE04\Riley_pe4.sql
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE contact_info' at line 2
+ERROR 1062 (23000): Duplicate entry '10-888-888-8888' for key 'PRIMARY'
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--statement 2
+INSERT INTO contact_info (
+contactID,
+firstname,
+lastname,
+phone_n' at line 1
+Query OK, 2 rows affected (0.15 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.13 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\PE\PE04\Riley_pe4.sql
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE contact_info' at line 2
+ERROR 1062 (23000): Duplicate entry '10-888-888-8888' for key 'PRIMARY'
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 3 rows affected (0.17 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.10 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> describe
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+mysql> DESCRIBE pe04;
+ERROR 1146 (42S02): Table 'pe04.pe04' doesn't exist
+mysql> DESCRIBE contact_info;
++-----------------------+--------------+------+-----+---------+-------+
+| Field                 | Type         | Null | Key | Default | Extra |
++-----------------------+--------------+------+-----+---------+-------+
+| contactID             | int(11)      | NO   | PRI | NULL    |       |
+| firstname             | varchar(15)  | YES  |     | NULL    |       |
+| middleinitial         | char(1)      | YES  |     | NULL    |       |
+| lastname              | varchar(25)  | YES  |     | NULL    |       |
+| suffix_description    | varchar(5)   | YES  |     | NULL    |       |
+| title_description     | varchar(5)   | YES  |     | NULL    |       |
+| jobtitle              | varchar(35)  | YES  |     | NULL    |       |
+| department            | varchar(30)  | YES  |     | NULL    |       |
+| email                 | varchar(40)  | YES  |     | NULL    |       |
+| url                   | varchar(55)  | YES  |     | NULL    |       |
+| IMaddress             | varchar(25)  | YES  |     | NULL    |       |
+| phone_number          | varchar(20)  | NO   | PRI | NULL    |       |
+| phonetype_description | varchar(8)   | YES  |     | NULL    |       |
+| birthday              | date         | YES  |     | NULL    |       |
+| notes                 | varchar(255) | YES  |     | NULL    |       |
+| companyname           | varchar(35)  | YES  |     | NULL    |       |
+| street1               | varchar(45)  | YES  |     | NULL    |       |
+| street2               | varchar(45)  | YES  |     | NULL    |       |
+| city                  | varchar(25)  | YES  |     | NULL    |       |
+| state_province        | varchar(20)  | YES  |     | NULL    |       |
+| zip_postalcode        | varchar(10)  | YES  |     | NULL    |       |
+| country_region        | varchar(15)  | YES  |     | NULL    |       |
+| company_url           | varchar(45)  | YES  |     | NULL    |       |
+| company_phone         | varchar(12)  | YES  |     | NULL    |       |
++-----------------------+--------------+------+-----+---------+-------+
+24 rows in set (0.01 sec)
+
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\PE\PE04\Riley_pe4.sql
++------------+-----------+-----------+
+| First Name | Last Name | contactID |
++------------+-----------+-----------+
+| William    | Destler   |         1 |
+| Jessica    | Smith     |        10 |
+| Jessica    | Smith     |        10 |
++------------+-----------+-----------+
+3 rows in set (0.01 sec)
+
+ERROR 1062 (23000): Duplicate entry '10-888-888-8888' for key 'PRIMARY'
+ERROR 1062 (23000): Duplicate entry '10-999-99-9999' for key 'PRIMARY'
+Query OK, 3 rows affected (0.18 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.11 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\PE\PE04\Riley_pe4.sql
+ERROR 1062 (23000): Duplicate entry '10-888-888-8888' for key 'PRIMARY'
+ERROR 1062 (23000): Duplicate entry '10-999-99-9999' for key 'PRIMARY'
+Query OK, 3 rows affected (0.14 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.12 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
++-----------+-----------+---------------+----------+--------------------+-------------------+-----------+-------------------------+-----------------+----------------------------------------+-----------+--------------+-----------------------+------------+----------------------------------------------+-----------------------------------+-----------------------+-----------------------+-----------+----------------+----------------+----------------+-------------+---------------+
+| contactID | firstname | middleinitial | lastname | suffix_description | title_description | jobtitle  | department              | email           | url                                    | IMaddress | phone_number | phonetype_description | birthday   | notes                                        | companyname                       | street1               | street2               | city      | state_province | zip_postalcode | country_region | company_url | company_phone |
++-----------+-----------+---------------+----------+--------------------+-------------------+-----------+-------------------------+-----------------+----------------------------------------+-----------+--------------+-----------------------+------------+----------------------------------------------+-----------------------------------+-----------------------+-----------------------+-----------+----------------+----------------+----------------+-------------+---------------+
+|         1 | William   | W             | Destler  | I                  | Dr.               | President | Office of the President | destler@rit.edu | http://www.rit.edu/president/index.php | destler   | 585-475-2396 | work                  | 1946-08-26 | Started as President of RIT on July 1, 2007. | Rochester Institute of Technology | 1 Lomb Memorial Drive | Building 1, 7th floor | Rochester | NY             | 14623-5603     | USA            | www.rit.edu | 585-475-6991  |
+|        10 | Jessica   | NULL          | Smith    | NULL               | NULL              | NULL      | NULL                    | NULL            | NULL                                   | NULL      | 888-888-8888 | work                  | NULL       | NULL                                         | NULL                              | NULL                  | NULL                  | NULL      | NULL           | NULL           | NULL           | NULL        | NULL          |
+|        10 | Jessica   | NULL          | Smith    | NULL               | NULL              | NULL      | NULL                    | NULL            | NULL                                   | NULL      | 999-99-9999  | cell                  | NULL       | NULL                                         | NULL                              | NULL                  | NULL                  | NULL      | NULL           | NULL           | NULL           | NULL        | NULL          |
++-----------+-----------+---------------+----------+--------------------+-------------------+-----------+-------------------------+-----------------+----------------------------------------+-----------+--------------+-----------------------+------------+----------------------------------------------+-----------------------------------+-----------------------+-----------------------+-----------+----------------+----------------+----------------+-------------+---------------+
+3 rows in set (0.00 sec)
+
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\PE\PE04\Riley_pe4.sql
+ERROR 1062 (23000): Duplicate entry '10-888-888-8888' for key 'PRIMARY'
+ERROR 1062 (23000): Duplicate entry '10-999-99-9999' for key 'PRIMARY'
+Query OK, 3 rows affected (0.21 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.13 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
++-----------+-----------+---------------+----------+--------------------+-------------------+-----------+-------------------------+-----------------+----------------------------------------+-----------+--------------+-----------------------+------------+----------------------------------------------+-----------------------------------+-----------------------+-----------------------+-----------+----------------+----------------+----------------+-------------+---------------+
+| contactID | firstname | middleinitial | lastname | suffix_description | title_description | jobtitle  | department              | email           | url                                    | IMaddress | phone_number | phonetype_description | birthday   | notes                                        | companyname                       | street1               | street2               | city      | state_province | zip_postalcode | country_region | company_url | company_phone |
++-----------+-----------+---------------+----------+--------------------+-------------------+-----------+-------------------------+-----------------+----------------------------------------+-----------+--------------+-----------------------+------------+----------------------------------------------+-----------------------------------+-----------------------+-----------------------+-----------+----------------+----------------+----------------+-------------+---------------+
+|         1 | William   | W             | Destler  | I                  | Dr.               | President | Office of the President | destler@rit.edu | http://www.rit.edu/president/index.php | destler   | 585-475-2396 | work                  | 1946-08-26 | Started as President of RIT on July 1, 2007. | Rochester Institute of Technology | 1 Lomb Memorial Drive | Building 1, 7th floor | Rochester | NY             | 14623-5603     | USA            | www.rit.edu | 585-475-6991  |
+|        10 | Jessica   | NULL          | Smith    | NULL               | NULL              | NULL      | NULL                    | NULL            | NULL                                   | NULL      | 888-888-8888 | work                  | NULL       | NULL                                         | NULL                              | NULL                  | NULL                  | NULL      | NULL           | NULL           | NULL           | NULL        | NULL          |
+|        10 | Jessica   | NULL          | Smith    | NULL               | NULL              | NULL      | NULL                    | NULL            | NULL                                   | NULL      | 999-99-9999  | cell                  | NULL       | NULL                                         | NULL                              | NULL                  | NULL                  | NULL      | NULL           | NULL           | NULL           | NULL        | NULL          |
++-----------+-----------+---------------+----------+--------------------+-------------------+-----------+-------------------------+-----------------+----------------------------------------+-----------+--------------+-----------------------+------------+----------------------------------------------+-----------------------------------+-----------------------+-----------------------+-----------+----------------+----------------+----------------+-------------+---------------+
+3 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.04 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.03 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> SELECT firstname FROM TABLE contact_info;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'TABLE contact_info' at line 1
+mysql> SELECT firstname FROM contact_info;
++-----------+
+| firstname |
++-----------+
+| William   |
+| Jessica   |
+| Jessica   |
++-----------+
+3 rows in set (0.00 sec)
+
+mysql> SELECT lastname FROM contact_info;
++----------+
+| lastname |
++----------+
+| Destler  |
+| Smith    |
+| Smith    |
++----------+
+3 rows in set (0.00 sec)
+
+mysql> INSERT INTO contact_info (
+    -> contactID
+    -> firstname,
+    -> lastname
+    -> );
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'firstname,
+lastname
+)' at line 3
+mysql> 
+mysql> VALUES
+    -> (
+    -> 11,
+    -> 'Edward',
+    -> 'Riley')
+    -> );
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'VALUES
+(
+11,
+'Edward',
+'Riley')
+)' at line 1
+mysql> INSERT INTO contact_info (
+    -> contactID
+    -> firstname,
+    -> lastname
+    -> )
+    -> 
+    -> VALUES
+    -> (
+    -> 11,
+    -> 'Edward',
+    -> 'Riley')
+    -> );
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'firstname,
+lastname
+)
+
+VALUES
+(
+11,
+'Edward',
+'Riley')
+)' at line 3
+mysql> INSERT INTO contact_info (
+    -> contactID,
+    -> firstname,
+    -> lastname
+    -> )
+    -> 
+    -> VALUES
+    -> (
+    -> 11,
+    -> 'Edward',
+    -> 'Riley')
+    -> );
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 12
+mysql> INSERT INTO contact_info (
+    -> contactID,
+    -> firstname,
+    -> lastname
+    -> )
+    -> 
+    -> VALUES
+    -> (
+    -> 11,
+    -> 'Edward',
+    -> 'Riley'
+    -> );
+ERROR 1364 (HY000): Field 'phone_number' doesn't have a default value
+mysql> INSERT INTO contact_info (
+    -> contactID,
+    -> firstname,
+    -> lastname,
+    -> phone_number
+    -> )
+    -> 
+    -> VALUES
+    -> (
+    -> 11,
+    -> 'Edward',
+    -> 'Riley',
+    -> '314-941-7209'
+    -> );
+Query OK, 1 row affected (0.01 sec)
+
+mysql> INSERT INTO contact_info (
+    -> contactID,
+    -> firstname,
+    -> lastname,
+    -> phone_number
+    -> )
+    -> 
+    -> VALUES
+    -> (
+    -> 11,
+    -> 'Edward',
+    -> 'Riley',
+    -> '123-456-7890'
+    -> );
+Query OK, 1 row affected (0.01 sec)
+
+mysql> 
+mysql> SELECT firstname, lastname
+    -> FROM contact_info;
++-----------+----------+
+| firstname | lastname |
++-----------+----------+
+| William   | Destler  |
+| Jessica   | Smith    |
+| Jessica   | Smith    |
+| Edward    | Riley    |
+| Edward    | Riley    |
++-----------+----------+
+5 rows in set (0.00 sec)
+
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\PE\PE04\Riley_pe4.sql
+ERROR 1062 (23000): Duplicate entry '10-888-888-8888' for key 'PRIMARY'
+ERROR 1062 (23000): Duplicate entry '10-999-99-9999' for key 'PRIMARY'
+Query OK, 5 rows affected (0.25 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.20 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
++-----------+-----------+---------------+----------+--------------------+-------------------+-----------+-------------------------+-----------------+----------------------------------------+-----------+--------------+-----------------------+------------+----------------------------------------------+-----------------------------------+-----------------------+-----------------------+-----------+----------------+----------------+----------------+-------------+---------------+
+| contactID | firstname | middleinitial | lastname | suffix_description | title_description | jobtitle  | department              | email           | url                                    | IMaddress | phone_number | phonetype_description | birthday   | notes                                        | companyname                       | street1               | street2               | city      | state_province | zip_postalcode | country_region | company_url | company_phone |
++-----------+-----------+---------------+----------+--------------------+-------------------+-----------+-------------------------+-----------------+----------------------------------------+-----------+--------------+-----------------------+------------+----------------------------------------------+-----------------------------------+-----------------------+-----------------------+-----------+----------------+----------------+----------------+-------------+---------------+
+|         1 | William   | W             | Destler  | I                  | Dr.               | President | Office of the President | destler@rit.edu | http://www.rit.edu/president/index.php | destler   | 585-475-2396 | work                  | 1946-08-26 | Started as President of RIT on July 1, 2007. | Rochester Institute of Technology | 1 Lomb Memorial Drive | Building 1, 7th floor | Rochester | NY             | 14623-5603     | USA            | www.rit.edu | 585-475-6991  |
+|        10 | Jessica   | NULL          | Smith    | NULL               | NULL              | NULL      | NULL                    | NULL            | NULL                                   | NULL      | 888-888-8888 | work                  | NULL       | NULL                                         | NULL                              | NULL                  | NULL                  | NULL      | NULL           | NULL           | NULL           | NULL        | NULL          |
+|        10 | Jessica   | NULL          | Smith    | NULL               | NULL              | NULL      | NULL                    | NULL            | NULL                                   | NULL      | 999-99-9999  | cell                  | NULL       | NULL                                         | NULL                              | NULL                  | NULL                  | NULL      | NULL           | NULL           | NULL           | NULL        | NULL          |
+|        11 | Edward    | NULL          | Riley    | NULL               | NULL              | NULL      | NULL                    | NULL            | NULL                                   | NULL      | 123-456-7890 | NULL                  | NULL       | NULL                                         | NULL                              | NULL                  | NULL                  | NULL      | NULL           | NULL           | NULL           | NULL        | NULL          |
+|        11 | Edward    | NULL          | Riley    | NULL               | NULL              | NULL      | NULL                    | NULL            | NULL                                   | NULL      | 314-941-7209 | NULL                  | NULL       | NULL                                         | NULL                              | NULL                  | NULL                  | NULL      | NULL           | NULL           | NULL           | NULL        | NULL          |
++-----------+-----------+---------------+----------+--------------------+-------------------+-----------+-------------------------+-----------------+----------------------------------------+-----------+--------------+-----------------------+------------+----------------------------------------------+-----------------------------------+-----------------------+-----------------------+-----------+----------------+----------------+----------------+-------------+---------------+
+5 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+ERROR 1062 (23000): Duplicate entry '11-123-456-7890' for key 'PRIMARY'
+Query OK, 0 rows affected (0.13 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+

@@ -1,0 +1,1276 @@
+mysql> clear
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+ERROR 1008 (HY000): Can't drop database 'riley_hw7'; database doesn't exist
+Query OK, 1 row affected (0.03 sec)
+
+Database changed
+Query OK, 0 rows affected (0.17 sec)
+
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 1 row affected (0.16 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Database changed
+Query OK, 0 rows affected (0.10 sec)
+
+mysql> describe Riley_HW7
+    -> ;
+ERROR 1146 (42S02): Table 'riley_hw7.riley_hw7' doesn't exist
+mysql> describe contact;
++------------------+--------------+------+-----+---------+-------+
+| Field            | Type         | Null | Key | Default | Extra |
++------------------+--------------+------+-----+---------+-------+
+| Category_Name    | varchar(35)  | YES  |     | NULL    |       |
+| ShippingPerPound | decimal(4,2) | YES  |     | NULL    |       |
++------------------+--------------+------+-----+---------+-------+
+2 rows in set (0.03 sec)
+
+mysql> describe contact;
++------------------+--------------+------+-----+---------+-------+
+| Field            | Type         | Null | Key | Default | Extra |
++------------------+--------------+------+-----+---------+-------+
+| Category_Name    | varchar(35)  | YES  |     | NULL    |       |
+| ShippingPerPound | decimal(4,2) | YES  |     | NULL    |       |
++------------------+--------------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
+
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 1 row affected (0.07 sec)
+
+Query OK, 1 row affected (0.02 sec)
+
+Database changed
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OffersAllowed ('n' AND 'y')
+
+
+
+)' at line 5
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Database changed
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OffersAllowed ('n' OR 'y')
+
+
+
+)' at line 5
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Database changed
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OffersAllowed ('n')
+
+
+
+)' at line 5
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Database changed
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OffersAllowed LIKE ('n')
+
+
+
+)' at line 5
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected (0.08 sec)
+
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 1 row affected (0.03 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected (0.07 sec)
+
+mysql> describe contact
+    -> ;
++------------------+--------------+------+-----+---------+-------+
+| Field            | Type         | Null | Key | Default | Extra |
++------------------+--------------+------+-----+---------+-------+
+| Category_Name    | varchar(35)  | YES  |     | NULL    |       |
+| ShippingPerPound | decimal(4,2) | YES  |     | NULL    |       |
+| OffersAllowed    | char(1)      | YES  |     | NULL    |       |
++------------------+--------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> describe contact
+    -> ;
++------------------+--------------+------+-----+---------+-------+
+| Field            | Type         | Null | Key | Default | Extra |
++------------------+--------------+------+-----+---------+-------+
+| Category_Name    | varchar(35)  | YES  |     | NULL    |       |
+| ShippingPerPound | decimal(4,2) | YES  |     | NULL    |       |
+| OffersAllowed    | char(1)      | YES  |     | NULL    |       |
++------------------+--------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 1 row affected (0.03 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected (0.08 sec)
+
+mysql> describe contact;
++------------------+--------------+------+-----+---------+-------+
+| Field            | Type         | Null | Key | Default | Extra |
++------------------+--------------+------+-----+---------+-------+
+| Category_Name    | varchar(35)  | YES  |     | NULL    |       |
+| ShippingPerPound | decimal(4,2) | YES  |     | NULL    |       |
+| OffersAllowed    | char(1)      | YES  |     | NULL    |       |
++------------------+--------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 1 row affected (0.05 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Database changed
+Query OK, 0 rows affected (0.15 sec)
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NOT NULL VARCHAR(35) 
+
+)' at line 3
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 1 row affected (0.05 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Database changed
+Query OK, 0 rows affected (0.14 sec)
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 5
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 1 row affected (0.05 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Database changed
+Query OK, 0 rows affected (0.16 sec)
+
+ERROR 1075 (42000): Incorrect table definition; there can be only one auto column and it must be defined as a key
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 1 row affected (0.05 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Database changed
+Query OK, 0 rows affected (0.13 sec)
+
+ERROR 1075 (42000): Incorrect table definition; there can be only one auto column and it must be defined as a key
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 1 row affected (0.05 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Database changed
+Query OK, 0 rows affected (0.16 sec)
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CONSTRAINT item_pk PRIMARY KEY (Item_Number)
+
+)' at line 4
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 1 row affected (0.03 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected (0.08 sec)
+
+Query OK, 0 rows affected (0.07 sec)
+
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 2 rows affected (0.09 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Database changed
+Query OK, 0 rows affected (0.15 sec)
+
+Query OK, 0 rows affected (0.10 sec)
+
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 2 rows affected (0.11 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected (0.12 sec)
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CONSTRAINT item_pk PRIMARY KEY (Item_Number)
+
+
+)' at line 10
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 1 row affected (0.05 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected (0.12 sec)
+
+ERROR 1072 (42000): Key column 'Category_Name' doesn't exist in table
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 1 row affected (0.04 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Database changed
+Query OK, 0 rows affected (0.08 sec)
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ADD FOREIGN KEY (Category_Name) REFERENCES contact(Category_Name),
+
+CONSTRAINT i' at line 8
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 1 row affected (0.04 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Database changed
+Query OK, 0 rows affected (0.10 sec)
+
+ERROR 1072 (42000): Key column 'Category_Name' doesn't exist in table
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 1 row affected (0.05 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected (0.12 sec)
+
+Query OK, 0 rows affected (0.12 sec)
+
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 2 rows affected (0.10 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected (0.13 sec)
+
+Query OK, 0 rows affected (0.14 sec)
+
+Query OK, 0 rows affected (0.12 sec)
+
+mysql> describe LINE_ITEM
+    -> ;
++----------+----------+------+-----+---------+-------+
+| Field    | Type     | Null | Key | Default | Extra |
++----------+----------+------+-----+---------+-------+
+| quantity | int(255) | YES  |     | NULL    |       |
++----------+----------+------+-----+---------+-------+
+1 row in set (0.02 sec)
+
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 3 rows affected (0.10 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected (0.12 sec)
+
+Query OK, 0 rows affected (0.12 sec)
+
+Query OK, 0 rows affected (0.12 sec)
+
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 3 rows affected (0.12 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Database changed
+Query OK, 0 rows affected (0.14 sec)
+
+Query OK, 0 rows affected (0.12 sec)
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shipping_amount DEC(4,2),
+
+)' at line 6
+Query OK, 0 rows affected (0.09 sec)
+
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 3 rows affected (0.11 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected (0.10 sec)
+
+Query OK, 0 rows affected (0.10 sec)
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'shipping_amount DEC(4,2),
+
+)' at line 6
+Query OK, 0 rows affected (0.12 sec)
+
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 3 rows affected (0.11 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Database changed
+Query OK, 0 rows affected (0.13 sec)
+
+Query OK, 0 rows affected (0.07 sec)
+
+Query OK, 0 rows affected (0.09 sec)
+
+Query OK, 0 rows affected (0.09 sec)
+
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 4 rows affected (0.14 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected (0.12 sec)
+
+Query OK, 0 rows affected (0.12 sec)
+
+Query OK, 0 rows affected (0.10 sec)
+
+Query OK, 0 rows affected (0.10 sec)
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 7
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 4 rows affected (0.13 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Database changed
+Query OK, 0 rows affected (0.10 sec)
+
+Query OK, 0 rows affected (0.12 sec)
+
+Query OK, 0 rows affected (0.14 sec)
+
+Query OK, 0 rows affected (0.11 sec)
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE TABLE CUSTOMER(
+
+
+
+)' at line 13
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 4 rows affected (0.15 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Database changed
+Query OK, 0 rows affected (0.12 sec)
+
+Query OK, 0 rows affected (0.12 sec)
+
+Query OK, 0 rows affected (0.12 sec)
+
+Query OK, 0 rows affected (0.16 sec)
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE TABLE CUSTOMER(
+CustomerID INT UNSIGNED AUTO_INCREMENT,
+CustomerName VARC' at line 13
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 4 rows affected (0.14 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected (0.12 sec)
+
+Query OK, 0 rows affected (0.11 sec)
+
+Query OK, 0 rows affected (0.13 sec)
+
+Query OK, 0 rows affected (0.09 sec)
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CREATE TABLE CUSTOMER(
+CustomerID INT UNSIGNED AUTO_INCREMENT,
+CustomerName VARC' at line 13
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 4 rows affected (0.15 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected (0.10 sec)
+
+Query OK, 0 rows affected (0.12 sec)
+
+Query OK, 0 rows affected (0.13 sec)
+
+Query OK, 0 rows affected (0.12 sec)
+
+Query OK, 0 rows affected (0.11 sec)
+
+ERROR 1072 (42000): Key column 'OrderID' doesn't exist in table
+mysql> 
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 5 rows affected (0.18 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected (0.12 sec)
+
+Query OK, 0 rows affected (0.14 sec)
+
+Query OK, 0 rows affected (0.11 sec)
+
+Query OK, 0 rows affected (0.15 sec)
+
+Query OK, 0 rows affected (0.15 sec)
+
+Query OK, 0 rows affected (0.15 sec)
+
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 6 rows affected (0.11 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected (0.07 sec)
+
+Query OK, 0 rows affected (0.07 sec)
+
+Query OK, 0 rows affected (0.09 sec)
+
+Query OK, 0 rows affected (0.09 sec)
+
+Query OK, 0 rows affected (0.06 sec)
+
+Query OK, 0 rows affected (0.07 sec)
+
+Query OK, 0 rows affected (0.07 sec)
+
+Query OK, 0 rows affected (0.07 sec)
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 5
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 8 rows affected (0.30 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected (0.11 sec)
+
+Query OK, 0 rows affected (0.14 sec)
+
+Query OK, 0 rows affected (0.07 sec)
+
+Query OK, 0 rows affected (0.13 sec)
+
+Query OK, 0 rows affected (0.08 sec)
+
+Query OK, 0 rows affected (0.10 sec)
+
+Query OK, 0 rows affected (0.08 sec)
+
+Query OK, 0 rows affected (0.10 sec)
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 5
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 8 rows affected (0.25 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Database changed
+Query OK, 0 rows affected (0.13 sec)
+
+Query OK, 0 rows affected (0.13 sec)
+
+Query OK, 0 rows affected (0.13 sec)
+
+Query OK, 0 rows affected (0.13 sec)
+
+Query OK, 0 rows affected (0.09 sec)
+
+Query OK, 0 rows affected (0.10 sec)
+
+Query OK, 0 rows affected (0.09 sec)
+
+Query OK, 0 rows affected (0.11 sec)
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 5
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 6
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 8 rows affected (0.29 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Database changed
+Query OK, 0 rows affected (0.11 sec)
+
+Query OK, 0 rows affected (0.10 sec)
+
+Query OK, 0 rows affected (0.10 sec)
+
+Query OK, 0 rows affected (0.11 sec)
+
+Query OK, 0 rows affected (0.13 sec)
+
+Query OK, 0 rows affected (0.10 sec)
+
+Query OK, 0 rows affected (0.10 sec)
+
+Query OK, 0 rows affected (0.09 sec)
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 5
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 8 rows affected (0.29 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected (0.11 sec)
+
+Query OK, 0 rows affected (0.13 sec)
+
+Query OK, 0 rows affected (0.07 sec)
+
+Query OK, 0 rows affected (0.12 sec)
+
+Query OK, 0 rows affected (0.10 sec)
+
+Query OK, 0 rows affected (0.13 sec)
+
+Query OK, 0 rows affected (0.13 sec)
+
+Query OK, 0 rows affected (0.08 sec)
+
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 8 rows affected (0.29 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Database changed
+Query OK, 0 rows affected (0.15 sec)
+
+Query OK, 0 rows affected (0.14 sec)
+
+Query OK, 0 rows affected (0.12 sec)
+
+Query OK, 0 rows affected (0.11 sec)
+
+Query OK, 0 rows affected (0.14 sec)
+
+Query OK, 0 rows affected (0.12 sec)
+
+Query OK, 0 rows affected (0.13 sec)
+
+Query OK, 0 rows affected (0.08 sec)
+
+Query OK, 0 rows affected (0.09 sec)
+
+Query OK, 0 rows affected (0.08 sec)
+
+mysql> exit
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 10 rows affected (0.32 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected (0.04 sec)
+
+Query OK, 0 rows affected (0.05 sec)
+
+ERROR 1215 (HY000): Cannot add foreign key constraint
+Query OK, 0 rows affected (0.04 sec)
+
+ERROR 1215 (HY000): Cannot add foreign key constraint
+Query OK, 0 rows affected (0.10 sec)
+
+Query OK, 0 rows affected (0.09 sec)
+
+Query OK, 0 rows affected (0.11 sec)
+
+Query OK, 0 rows affected (0.08 sec)
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CONSTRAINT guarantee_orderID_fk FOREIGN KEY (orderID) REFERENCES ordered(orderID' at line 1
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
++---------------+------------------+---------------+
+| category_Name | shippingPerPound | offersAllowed |
++---------------+------------------+---------------+
+| Books         |             0.99 | y             |
+| Home          |             1.99 | y             |
+| Jewelry       |             0.99 | n             |
+| Toys          |             0.99 | y             |
++---------------+------------------+---------------+
+4 rows in set (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
++-------------+--------------------+---------------+-------+-------+---------------+
+| item_Number | item_Name          | description   | model | price | category_name |
++-------------+--------------------+---------------+-------+-------+---------------+
+|           1 | Cabbage Patch Doll | Baby boy doll | Boy   | 39.95 | Toys          |
++-------------+--------------------+---------------+-------+-------+---------------+
+1 row in set (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
++------------+----------+-----------+----------------+
+| offerCode  | Discount | minAmount | expirationDate |
++------------+----------+-----------+----------------+
+| 345743213  | 20% off  |     20.00 | 2013-12-31     |
+| 4567890123 | 30% off  |     30.00 | 2013-12-31     |
++------------+----------+-----------+----------------+
+2 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1054 (42S22): Unknown column 'home' in 'field list'
+ERROR 1146 (42S02): Table 'riley_hw7.ordered' doesn't exist
+ERROR 1146 (42S02): Table 'riley_hw7.line_item' doesn't exist
+ERROR 1146 (42S02): Table 'riley_hw7.line_item' doesn't exist
+ERROR 1146 (42S02): Table 'riley_hw7.line_item' doesn't exist
+Query OK, 0 rows affected (0.01 sec)
+
++------------+----------------+-------------------------------------------+-----------------+---------------+
+| customerID | customerName   | address                                   | email           | customer_type |
++------------+----------------+-------------------------------------------+-----------------+---------------+
+|          1 | Janine Jeffers | 152 Lomb Memorial Dr., Rochester,NY 14623 | jxj1234@rit.edu | NULL          |
++------------+----------------+-------------------------------------------+-----------------+---------------+
+1 row in set (0.00 sec)
+
+ERROR 1146 (42S02): Table 'riley_hw7.ordered' doesn't exist
++------------+------------------+----------------+
+| customerID | creditCardNum    | cardExpiration |
++------------+------------------+----------------+
+|          1 | 1234567890123456 | 012014         |
++------------+------------------+----------------+
+1 row in set (0.00 sec)
+
+ERROR 1146 (42S02): Table 'riley_hw7.line_item' doesn't exist
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO customer(
+customerName,
+address,
+email
+) 
+
+VALUES(
+'Joey John Barber' at line 3
+ERROR 1048 (23000): Column 'customerID' cannot be null
+ERROR 1054 (42S22): Unknown column 'busines' in 'field list'
+ERROR 1146 (42S02): Table 'riley_hw7.ordered' doesn't exist
+ERROR 1146 (42S02): Table 'riley_hw7.line_item' doesn't exist
+ERROR 1048 (23000): Column 'customerID' cannot be null
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 7 rows affected (0.22 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected (0.13 sec)
+
+Query OK, 0 rows affected (0.11 sec)
+
+ERROR 1215 (HY000): Cannot add foreign key constraint
+Query OK, 0 rows affected (0.08 sec)
+
+ERROR 1215 (HY000): Cannot add foreign key constraint
+Query OK, 0 rows affected (0.08 sec)
+
+Query OK, 0 rows affected (0.13 sec)
+
+Query OK, 0 rows affected (0.15 sec)
+
+Query OK, 0 rows affected (0.08 sec)
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CONSTRAINT guarantee_orderID_fk FOREIGN KEY (orderID) REFERENCES ordered(orderID' at line 1
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
++---------------+------------------+---------------+
+| category_Name | shippingPerPound | offersAllowed |
++---------------+------------------+---------------+
+| Books         |             0.99 | y             |
+| Home          |             1.99 | y             |
+| Jewelry       |             0.99 | n             |
+| Toys          |             0.99 | y             |
++---------------+------------------+---------------+
+4 rows in set (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
++-------------+--------------------+---------------+-------+-------+---------------+
+| item_Number | item_Name          | description   | model | price | category_name |
++-------------+--------------------+---------------+-------+-------+---------------+
+|           1 | Cabbage Patch Doll | Baby boy doll | Boy   | 39.95 | Toys          |
++-------------+--------------------+---------------+-------+-------+---------------+
+1 row in set (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
++------------+----------+-----------+----------------+
+| offerCode  | Discount | minAmount | expirationDate |
++------------+----------+-----------+----------------+
+| 345743213  | 20% off  |     20.00 | 2013-12-31     |
+| 4567890123 | 30% off  |     30.00 | 2013-12-31     |
++------------+----------+-----------+----------------+
+2 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+ERROR 1054 (42S22): Unknown column 'home' in 'field list'
+ERROR 1146 (42S02): Table 'riley_hw7.ordered' doesn't exist
+ERROR 1146 (42S02): Table 'riley_hw7.line_item' doesn't exist
+ERROR 1146 (42S02): Table 'riley_hw7.line_item' doesn't exist
+ERROR 1146 (42S02): Table 'riley_hw7.line_item' doesn't exist
+Query OK, 0 rows affected (0.01 sec)
+
++------------+----------------+-------------------------------------------+-----------------+---------------+
+| customerID | customerName   | address                                   | email           | customer_type |
++------------+----------------+-------------------------------------------+-----------------+---------------+
+|          1 | Janine Jeffers | 152 Lomb Memorial Dr., Rochester,NY 14623 | jxj1234@rit.edu | NULL          |
++------------+----------------+-------------------------------------------+-----------------+---------------+
+1 row in set (0.00 sec)
+
+ERROR 1146 (42S02): Table 'riley_hw7.ordered' doesn't exist
++------------+------------------+----------------+
+| customerID | creditCardNum    | cardExpiration |
++------------+------------------+----------------+
+|          1 | 1234567890123456 | 012014         |
++------------+------------------+----------------+
+1 row in set (0.00 sec)
+
+ERROR 1146 (42S02): Table 'riley_hw7.line_item' doesn't exist
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO customer(
+customerName,
+address,
+email
+) 
+
+VALUES(
+'Joey John Barber' at line 3
+ERROR 1048 (23000): Column 'customerID' cannot be null
+ERROR 1054 (42S22): Unknown column 'busines' in 'field list'
+ERROR 1146 (42S02): Table 'riley_hw7.ordered' doesn't exist
+ERROR 1146 (42S02): Table 'riley_hw7.line_item' doesn't exist
+ERROR 1048 (23000): Column 'customerID' cannot be null
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 7 rows affected (0.22 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Database changed
+Query OK, 0 rows affected (0.11 sec)
+
+Query OK, 0 rows affected (0.12 sec)
+
+ERROR 1215 (HY000): Cannot add foreign key constraint
+Query OK, 0 rows affected (0.14 sec)
+
+ERROR 1215 (HY000): Cannot add foreign key constraint
+Query OK, 0 rows affected (0.08 sec)
+
+Query OK, 0 rows affected (0.11 sec)
+
+Query OK, 0 rows affected (0.10 sec)
+
+Query OK, 0 rows affected (0.09 sec)
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CONSTRAINT guarantee_orderID_fk FOREIGN KEY (orderID) REFERENCES ordered(orderID' at line 1
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
++---------------+------------------+---------------+
+| category_Name | shippingPerPound | offersAllowed |
++---------------+------------------+---------------+
+| Books         |             0.99 | y             |
+| Home          |             1.99 | y             |
+| Jewelry       |             0.99 | n             |
+| Toys          |             0.99 | y             |
++---------------+------------------+---------------+
+4 rows in set (0.00 sec)
+
+Query OK, 1 row affected (0.02 sec)
+
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
++-------------+--------------------+---------------+-------+-------+---------------+
+| item_Number | item_Name          | description   | model | price | category_name |
++-------------+--------------------+---------------+-------+-------+---------------+
+|           1 | Cabbage Patch Doll | Baby boy doll | Boy   | 39.95 | Toys          |
++-------------+--------------------+---------------+-------+-------+---------------+
+1 row in set (0.00 sec)
+
+Query OK, 1 row affected (0.02 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
++------------+----------+-----------+----------------+
+| offerCode  | Discount | minAmount | expirationDate |
++------------+----------+-----------+----------------+
+| 345743213  | 20% off  |     20.00 | 2013-12-31     |
+| 4567890123 | 30% off  |     30.00 | 2013-12-31     |
++------------+----------+-----------+----------------+
+2 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 1 row affected (0.02 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1054 (42S22): Unknown column 'home' in 'field list'
+ERROR 1146 (42S02): Table 'riley_hw7.ordered' doesn't exist
+ERROR 1146 (42S02): Table 'riley_hw7.line_item' doesn't exist
+ERROR 1146 (42S02): Table 'riley_hw7.line_item' doesn't exist
+ERROR 1146 (42S02): Table 'riley_hw7.line_item' doesn't exist
+Query OK, 0 rows affected (0.01 sec)
+
++------------+----------------+-------------------------------------------+-----------------+---------------+
+| customerID | customerName   | address                                   | email           | customer_type |
++------------+----------------+-------------------------------------------+-----------------+---------------+
+|          1 | Janine Jeffers | 152 Lomb Memorial Dr., Rochester,NY 14623 | jxj1234@rit.edu | NULL          |
++------------+----------------+-------------------------------------------+-----------------+---------------+
+1 row in set (0.00 sec)
+
+ERROR 1146 (42S02): Table 'riley_hw7.ordered' doesn't exist
++------------+------------------+----------------+
+| customerID | creditCardNum    | cardExpiration |
++------------+------------------+----------------+
+|          1 | 1234567890123456 | 012014         |
++------------+------------------+----------------+
+1 row in set (0.00 sec)
+
+ERROR 1146 (42S02): Table 'riley_hw7.line_item' doesn't exist
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO customer(
+customerName,
+address,
+email
+) 
+
+VALUES(
+'Joey John Barber' at line 3
+ERROR 1048 (23000): Column 'customerID' cannot be null
+ERROR 1054 (42S22): Unknown column 'busines' in 'field list'
+ERROR 1146 (42S02): Table 'riley_hw7.ordered' doesn't exist
+ERROR 1146 (42S02): Table 'riley_hw7.line_item' doesn't exist
+ERROR 1048 (23000): Column 'customerID' cannot be null
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 7 rows affected (0.34 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected (0.12 sec)
+
+Query OK, 0 rows affected (0.15 sec)
+
+ERROR 1215 (HY000): Cannot add foreign key constraint
+Query OK, 0 rows affected (0.08 sec)
+
+ERROR 1215 (HY000): Cannot add foreign key constraint
+Query OK, 0 rows affected (0.08 sec)
+
+Query OK, 0 rows affected (0.07 sec)
+
+Query OK, 0 rows affected (0.08 sec)
+
+Query OK, 0 rows affected (0.15 sec)
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CONSTRAINT guarantee_orderID_fk FOREIGN KEY (orderID) REFERENCES ordered(orderID' at line 1
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
++---------------+------------------+---------------+
+| category_Name | shippingPerPound | offersAllowed |
++---------------+------------------+---------------+
+| Books         |             0.99 | y             |
+| Home          |             1.99 | y             |
+| Jewelry       |             0.99 | n             |
+| Toys          |             0.99 | y             |
++---------------+------------------+---------------+
+4 rows in set (0.00 sec)
+
+Query OK, 1 row affected (0.02 sec)
+
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
++-------------+--------------------+---------------+-------+-------+---------------+
+| item_Number | item_Name          | description   | model | price | category_name |
++-------------+--------------------+---------------+-------+-------+---------------+
+|           1 | Cabbage Patch Doll | Baby boy doll | Boy   | 39.95 | Toys          |
++-------------+--------------------+---------------+-------+-------+---------------+
+1 row in set (0.00 sec)
+
+Query OK, 1 row affected (0.02 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
++------------+----------+-----------+----------------+
+| offerCode  | Discount | minAmount | expirationDate |
++------------+----------+-----------+----------------+
+| 345743213  | 20% off  |     20.00 | 2013-12-31     |
+| 4567890123 | 30% off  |     30.00 | 2013-12-31     |
++------------+----------+-----------+----------------+
+2 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1054 (42S22): Unknown column 'home' in 'field list'
+ERROR 1146 (42S02): Table 'riley_hw7.ordered' doesn't exist
+ERROR 1146 (42S02): Table 'riley_hw7.line_item' doesn't exist
+ERROR 1146 (42S02): Table 'riley_hw7.line_item' doesn't exist
+ERROR 1146 (42S02): Table 'riley_hw7.line_item' doesn't exist
+Query OK, 0 rows affected (0.01 sec)
+
++------------+----------------+-------------------------------------------+-----------------+---------------+
+| customerID | customerName   | address                                   | email           | customer_type |
++------------+----------------+-------------------------------------------+-----------------+---------------+
+|          1 | Janine Jeffers | 152 Lomb Memorial Dr., Rochester,NY 14623 | jxj1234@rit.edu | NULL          |
++------------+----------------+-------------------------------------------+-----------------+---------------+
+1 row in set (0.00 sec)
+
+ERROR 1146 (42S02): Table 'riley_hw7.ordered' doesn't exist
++------------+------------------+----------------+
+| customerID | creditCardNum    | cardExpiration |
++------------+------------------+----------------+
+|          1 | 1234567890123456 | 012014         |
++------------+------------------+----------------+
+1 row in set (0.00 sec)
+
+ERROR 1146 (42S02): Table 'riley_hw7.line_item' doesn't exist
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO customer(
+customerName,
+address,
+email
+) 
+
+VALUES(
+'Joey John Barber' at line 3
+ERROR 1048 (23000): Column 'customerID' cannot be null
+ERROR 1054 (42S22): Unknown column 'busines' in 'field list'
+ERROR 1146 (42S02): Table 'riley_hw7.ordered' doesn't exist
+ERROR 1146 (42S02): Table 'riley_hw7.line_item' doesn't exist
+ERROR 1048 (23000): Column 'customerID' cannot be null
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 7 rows affected (0.20 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected (0.04 sec)
+
+Query OK, 0 rows affected (0.05 sec)
+
+ERROR 1215 (HY000): Cannot add foreign key constraint
+Query OK, 0 rows affected (0.10 sec)
+
+ERROR 1215 (HY000): Cannot add foreign key constraint
+Query OK, 0 rows affected (0.09 sec)
+
+Query OK, 0 rows affected (0.09 sec)
+
+Query OK, 0 rows affected (0.12 sec)
+
+Query OK, 0 rows affected (0.12 sec)
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CONSTRAINT guarantee_orderID_fk FOREIGN KEY (orderID) REFERENCES ordered(orderID' at line 1
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
++---------------+------------------+---------------+
+| category_Name | shippingPerPound | offersAllowed |
++---------------+------------------+---------------+
+| Books         |             0.99 | y             |
+| Home          |             1.99 | y             |
+| Jewelry       |             0.99 | n             |
+| Toys          |             0.99 | y             |
++---------------+------------------+---------------+
+4 rows in set (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
++-------------+--------------------+---------------+-------+-------+---------------+
+| item_Number | item_Name          | description   | model | price | category_name |
++-------------+--------------------+---------------+-------+-------+---------------+
+|           1 | Cabbage Patch Doll | Baby boy doll | Boy   | 39.95 | Toys          |
++-------------+--------------------+---------------+-------+-------+---------------+
+1 row in set (0.00 sec)
+
+Query OK, 1 row affected (0.02 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
++------------+----------+-----------+----------------+
+| offerCode  | Discount | minAmount | expirationDate |
++------------+----------+-----------+----------------+
+| 345743213  | 20% off  |     20.00 | 2013-12-31     |
+| 4567890123 | 30% off  |     30.00 | 2013-12-31     |
++------------+----------+-----------+----------------+
+2 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1054 (42S22): Unknown column 'home' in 'field list'
+ERROR 1146 (42S02): Table 'riley_hw7.ordered' doesn't exist
+ERROR 1146 (42S02): Table 'riley_hw7.line_item' doesn't exist
+ERROR 1146 (42S02): Table 'riley_hw7.line_item' doesn't exist
+ERROR 1146 (42S02): Table 'riley_hw7.line_item' doesn't exist
+Query OK, 0 rows affected (0.00 sec)
+
++------------+----------------+-------------------------------------------+-----------------+---------------+
+| customerID | customerName   | address                                   | email           | customer_type |
++------------+----------------+-------------------------------------------+-----------------+---------------+
+|          1 | Janine Jeffers | 152 Lomb Memorial Dr., Rochester,NY 14623 | jxj1234@rit.edu | NULL          |
++------------+----------------+-------------------------------------------+-----------------+---------------+
+1 row in set (0.00 sec)
+
+ERROR 1146 (42S02): Table 'riley_hw7.ordered' doesn't exist
++------------+------------------+----------------+
+| customerID | creditCardNum    | cardExpiration |
++------------+------------------+----------------+
+|          1 | 1234567890123456 | 012014         |
++------------+------------------+----------------+
+1 row in set (0.00 sec)
+
+ERROR 1146 (42S02): Table 'riley_hw7.line_item' doesn't exist
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO customer(
+customerName,
+address,
+email
+) 
+
+VALUES(
+'Joey John Barber' at line 3
+ERROR 1048 (23000): Column 'customerID' cannot be null
+ERROR 1054 (42S22): Unknown column 'business' in 'field list'
+ERROR 1146 (42S02): Table 'riley_hw7.ordered' doesn't exist
+ERROR 1146 (42S02): Table 'riley_hw7.line_item' doesn't exist
+ERROR 1048 (23000): Column 'customerID' cannot be null
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> 
+mysql> source
+ERROR: 
+Usage: \. <filename> | source <filename>
+mysql> tee C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\log.txt
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW7\Riley_HW7.sql
+Query OK, 7 rows affected (0.23 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Database changed
+Query OK, 0 rows affected (0.11 sec)
+
+Query OK, 0 rows affected (0.10 sec)
+
+ERROR 1215 (HY000): Cannot add foreign key constraint
+Query OK, 0 rows affected (0.08 sec)
+
+ERROR 1215 (HY000): Cannot add foreign key constraint
+Query OK, 0 rows affected (0.08 sec)
+
+Query OK, 0 rows affected (0.11 sec)
+
+Query OK, 0 rows affected (0.13 sec)
+
+Query OK, 0 rows affected (0.10 sec)
+
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 6
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CONSTRAINT guarantee_orderID_fk FOREIGN KEY (orderID) REFERENCES ordered(orderID' at line 1
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
++---------------+------------------+---------------+
+| category_Name | shippingPerPound | offersAllowed |
++---------------+------------------+---------------+
+| Books         |             0.99 | y             |
+| Home          |             1.99 | y             |
+| Jewelry       |             0.99 | n             |
+| Toys          |             0.99 | y             |
++---------------+------------------+---------------+
+4 rows in set (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
++-------------+--------------------+---------------+-------+-------+---------------+
+| item_Number | item_Name          | description   | model | price | category_name |
++-------------+--------------------+---------------+-------+-------+---------------+
+|           1 | Cabbage Patch Doll | Baby boy doll | Boy   | 39.95 | Toys          |
++-------------+--------------------+---------------+-------+-------+---------------+
+1 row in set (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
++------------+----------+-----------+----------------+
+| offerCode  | Discount | minAmount | expirationDate |
++------------+----------+-----------+----------------+
+| 345743213  | 20% off  |     20.00 | 2013-12-31     |
+| 4567890123 | 30% off  |     30.00 | 2013-12-31     |
++------------+----------+-----------+----------------+
+2 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1054 (42S22): Unknown column 'home' in 'field list'
+ERROR 1146 (42S02): Table 'riley_hw7.ordered' doesn't exist
+ERROR 1146 (42S02): Table 'riley_hw7.line_item' doesn't exist
+ERROR 1146 (42S02): Table 'riley_hw7.line_item' doesn't exist
+ERROR 1146 (42S02): Table 'riley_hw7.line_item' doesn't exist
+Query OK, 0 rows affected (0.01 sec)
+
++------------+----------------+-------------------------------------------+-----------------+---------------+
+| customerID | customerName   | address                                   | email           | customer_type |
++------------+----------------+-------------------------------------------+-----------------+---------------+
+|          1 | Janine Jeffers | 152 Lomb Memorial Dr., Rochester,NY 14623 | jxj1234@rit.edu | NULL          |
++------------+----------------+-------------------------------------------+-----------------+---------------+
+1 row in set (0.00 sec)
+
+ERROR 1146 (42S02): Table 'riley_hw7.ordered' doesn't exist
++------------+------------------+----------------+
+| customerID | creditCardNum    | cardExpiration |
++------------+------------------+----------------+
+|          1 | 1234567890123456 | 012014         |
++------------+------------------+----------------+
+1 row in set (0.00 sec)
+
+ERROR 1146 (42S02): Table 'riley_hw7.line_item' doesn't exist
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO customer(
+customerName,
+address,
+email
+) 
+
+VALUES(
+'Joey John Barber' at line 3
+ERROR 1048 (23000): Column 'customerID' cannot be null
+ERROR 1054 (42S22): Unknown column 'business' in 'field list'
+ERROR 1146 (42S02): Table 'riley_hw7.ordered' doesn't exist
+ERROR 1146 (42S02): Table 'riley_hw7.line_item' doesn't exist
+ERROR 1048 (23000): Column 'customerID' cannot be null
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> eixt
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'eixt' at line 1
+mysql> exit

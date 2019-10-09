@@ -1,0 +1,1232 @@
+mysql> source C:\Users\Mason Riley\Desktop\RIT\Intro to Database Modeling\HW\Riley_HW3\HW3DB.sql
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+Query OK, 1 row affected (0.12 sec)
+
+Database changed
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+Query OK, 0 rows affected (0.12 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x88 Edu...' for column 'HeadOfState' at row 1
+Query OK, 1 row affected (0.00 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x8Eria' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC2\xA5Arab...' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\xB6arja...' for column 'HeadOfState' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\xB1' for column 'LocalName' at row 1
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x81aise...' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\xB7ster...' for column 'LocalName' at row 1
+ERROR 1366 (HY000): Incorrect string value: '\xB0rbayc...' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.00 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x8E/Bel...' for column 'LocalName' at row 1
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x88nin' for column 'LocalName' at row 1
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x88' for column 'HeadOfState' at row 1
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\xB6enka' for column 'HeadOfState' at row 1
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC2\xB7nzer...' for column 'HeadOfState' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC2\xAFya' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x8D-Afr...' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x99te d...' for column 'Name' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x88publ...' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x88s Pa...' for column 'HeadOfState' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x9Bnio ...' for column 'HeadOfState' at row 1
+ERROR 1366 (HY000): Incorrect string value: '\xC2\xA1ngel...' for column 'HeadOfState' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC2\xB7clav...' for column 'HeadOfState' at row 1
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\xADir/A...' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x92a' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.00 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC2\xA5iya' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC2\xAFroya...' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\xA4evar...' for column 'HeadOfState' at row 1
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x88e' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x88-Bis...' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC2\xB7da' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC2\xAFnlan...' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x81aise' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x88' for column 'HeadOfState' at row 1
+ERROR 1366 (HY000): Incorrect string value: '\xC3\xA4tipe...' for column 'HeadOfState' at row 1
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x94ti/D...' for column 'LocalName' at row 1
+ERROR 1366 (HY000): Incorrect string value: '\xC2\xB7g' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC2\xA5Iraq' for column 'LocalName' at row 1
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x95slan...' for column 'LocalName' at row 1
+ERROR 1366 (HY000): Incorrect string value: '\xC3\xADel/I...' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x88a' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\xADguk ...' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x8Etzeb...' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x88xico' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x88' for column 'HeadOfState' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x81ambi...' for column 'LocalName' at row 1
+ERROR 1366 (HY000): Incorrect string value: '\xC2\xA5Ahma...' for column 'HeadOfState' at row 1
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x88doni...' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC2\xB7n La...' for column 'HeadOfState' at row 1
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC2\xA5Uman' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC2\xB7' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC2\xA5min ...' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC2\xA1ngel...' for column 'HeadOfState' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x88sie ...' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x88unio...' for column 'Name' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC2\xA5Arab...' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x88n\xC3\x88g...' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x88rez' for column 'HeadOfState' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x88 e P...' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x88' for column 'HeadOfState' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x88by' for column 'HeadOfState' at row 1
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x88 Eya...' for column 'HeadOfState' at row 1
+Query OK, 1 row affected (0.00 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x81ikis...' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC2\xB8rkme...' for column 'LocalName' at row 1
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x88 Ale...' for column 'HeadOfState' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC2\xB8rkiy...' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\xADai-w...' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\xB6ma' for column 'HeadOfState' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC2\xB7\xC3\x92ez' for column 'HeadOfState' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC2\xB7vez ...' for column 'HeadOfState' at row 1
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\x8Dt Na...' for column 'LocalName' at row 1
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+ERROR 1366 (HY000): Incorrect string value: '\xC3\xB6tuni...' for column 'HeadOfState' at row 1
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+mysql> describe Country;
++----------------+-------------+------+-----+---------+-------+
+| Field          | Type        | Null | Key | Default | Extra |
++----------------+-------------+------+-----+---------+-------+
+| Code           | char(3)     | NO   | PRI | NULL    |       |
+| Name           | char(52)    | NO   |     | NULL    |       |
+| Continent      | varchar(15) | NO   |     | Asia    |       |
+| Region         | varchar(26) | NO   |     | NULL    |       |
+| SurfaceArea    | float(10,2) | NO   |     | 0.00    |       |
+| IndepYear      | smallint(6) | YES  |     | NULL    |       |
+| Population     | int(11)     | NO   |     | 0       |       |
+| LifeExpectancy | float(3,1)  | YES  |     | NULL    |       |
+| GNP            | float(10,2) | YES  |     | NULL    |       |
+| GNPOld         | float(10,2) | YES  |     | NULL    |       |
+| LocalName      | varchar(45) | NO   |     | NULL    |       |
+| GovernmentForm | varchar(45) | NO   |     | NULL    |       |
+| HeadOfState    | varchar(60) | YES  |     | NULL    |       |
+| Capital        | int(11)     | YES  |     | NULL    |       |
+| Code2          | char(2)     | NO   |     | NULL    |       |
++----------------+-------------+------+-----+---------+-------+
+15 rows in set (0.01 sec)
+
+mysql> SELECT Name FROM Country WHERE Country LIKE 'United States';
+ERROR 1054 (42S22): Unknown column 'Country' in 'where clause'
+mysql> SELECT Name FROM Country WHERE HeadOfState LIKE 'United States';
+Empty set (0.01 sec)
+
+mysql> SELECT Name FROM Country WHERE Region LIKE 'United States';
+Empty set (0.00 sec)
+
+mysql> SELECT Name FROM Country WHERE LocalName LIKE 'United States';
++---------------+
+| Name          |
++---------------+
+| United States |
++---------------+
+1 row in set (0.00 sec)
+
+mysql> SELECT HeadOfState FROM Country WHERE LocalName LIKE 'United States';
++----------------+
+| HeadOfState    |
++----------------+
+| George W. Bush |
++----------------+
+1 row in set (0.00 sec)
+
+mysql> SELECT HeadOfState FROM Country WHERE LocalName LIKE 'United States';
++----------------+
+| HeadOfState    |
++----------------+
+| George W. Bush |
++----------------+
+1 row in set (0.00 sec)
+
+mysql> UPDATE Country SET HeadOfState = ?Donald Trump? WHERE LocalName LIKE 'United States';
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?Donald Trump? WHERE LocalName LIKE 'United States'' at line 1
+mysql> UPDATE Country SET HeadOfState = ?Donald Trump? WHERE LocalName = 'United States';
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?Donald Trump? WHERE LocalName = 'United States'' at line 1
+mysql> UPDATE Country
+    -> SET HeadOfState = 'Donald Trump'
+    -> WHERE LocalName = 'United States';
+Query OK, 1 row affected (0.02 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> SELECT HeadOfState FROM Country WHERE LocalName LIKE 'United States';
++--------------+
+| HeadOfState  |
++--------------+
+| Donald Trump |
++--------------+
+1 row in set (0.00 sec)
+
+mysql> SELECT Name AS 'Country Name' FROM Country WHERE IndepYear IS NULL;
++----------------------------------------------+
+| Country Name                                 |
++----------------------------------------------+
+| Aruba                                        |
+| Anguilla                                     |
+| Netherlands Antilles                         |
+| American Samoa                               |
+| Bermuda                                      |
+| Cocos (Keeling) Islands                      |
+| Cook Islands                                 |
+| Christmas Island                             |
+| Cayman Islands                               |
+| Western Sahara                               |
+| Falkland Islands                             |
+| Gibraltar                                    |
+| Guadeloupe                                   |
+| Guam                                         |
+| Hong Kong                                    |
+| Heard Island and McDonald Islands            |
+| British Indian Ocean Territory               |
+| Macao                                        |
+| Northern Mariana Islands                     |
+| Montserrat                                   |
+| Martinique                                   |
+| Mayotte                                      |
+| Norfolk Island                               |
+| Niue                                         |
+| Pitcairn                                     |
+| Puerto Rico                                  |
+| Palestine                                    |
+| South Georgia and the South Sandwich Islands |
+| Saint Helena                                 |
+| Svalbard and Jan Mayen                       |
+| Saint Pierre and Miquelon                    |
+| Turks and Caicos Islands                     |
+| Tokelau                                      |
+| United States Minor Outlying Islands         |
+| Virgin Islands, British                      |
+| Virgin Islands, U.S.                         |
+| Wallis and Futuna                            |
++----------------------------------------------+
+37 rows in set (0.00 sec)
+
+mysql> SELECT LocalName AS 'Country Name' FROM Country WHERE IndepYear IS NULL;
++----------------------------------------------+
+| Country Name                                 |
++----------------------------------------------+
+| Aruba                                        |
+| Anguilla                                     |
+| Nederlandse Antillen                         |
+| Amerika Samoa                                |
+| Bermuda                                      |
+| Cocos (Keeling) Islands                      |
+| The Cook Islands                             |
+| Christmas Island                             |
+| Cayman Islands                               |
+| As-Sahrawiya                                 |
+| Falkland Islands                             |
+| Gibraltar                                    |
+| Guadeloupe                                   |
+| Guam                                         |
+| Xianggang/Hong Kong                          |
+| Heard and McDonald Islands                   |
+| British Indian Ocean Territory               |
+| Macau/Aomen                                  |
+| Northern Mariana Islands                     |
+| Montserrat                                   |
+| Martinique                                   |
+| Mayotte                                      |
+| Norfolk Island                               |
+| Niue                                         |
+| Pitcairn                                     |
+| Puerto Rico                                  |
+| Filastin                                     |
+| South Georgia and the South Sandwich Islands |
+| Saint Helena                                 |
+| Svalbard og Jan Mayen                        |
+| Saint-Pierre-et-Miquelon                     |
+| The Turks and Caicos Islands                 |
+| Tokelau                                      |
+| United States Minor Outlying Islands         |
+| British Virgin Islands                       |
+| Virgin Islands of the United States          |
+| Wallis-et-Futuna                             |
++----------------------------------------------+
+37 rows in set (0.00 sec)
+
+mysql> SELECT Name AS 'Country Name' FROM Country WHERE IndepYear IS NULL;
++----------------------------------------------+
+| Country Name                                 |
++----------------------------------------------+
+| Aruba                                        |
+| Anguilla                                     |
+| Netherlands Antilles                         |
+| American Samoa                               |
+| Bermuda                                      |
+| Cocos (Keeling) Islands                      |
+| Cook Islands                                 |
+| Christmas Island                             |
+| Cayman Islands                               |
+| Western Sahara                               |
+| Falkland Islands                             |
+| Gibraltar                                    |
+| Guadeloupe                                   |
+| Guam                                         |
+| Hong Kong                                    |
+| Heard Island and McDonald Islands            |
+| British Indian Ocean Territory               |
+| Macao                                        |
+| Northern Mariana Islands                     |
+| Montserrat                                   |
+| Martinique                                   |
+| Mayotte                                      |
+| Norfolk Island                               |
+| Niue                                         |
+| Pitcairn                                     |
+| Puerto Rico                                  |
+| Palestine                                    |
+| South Georgia and the South Sandwich Islands |
+| Saint Helena                                 |
+| Svalbard and Jan Mayen                       |
+| Saint Pierre and Miquelon                    |
+| Turks and Caicos Islands                     |
+| Tokelau                                      |
+| United States Minor Outlying Islands         |
+| Virgin Islands, British                      |
+| Virgin Islands, U.S.                         |
+| Wallis and Futuna                            |
++----------------------------------------------+
+37 rows in set (0.00 sec)
+
+mysql> SELECT Code AS 'Country Name' FROM Country WHERE IndepYear IS NULL;
++--------------+
+| Country Name |
++--------------+
+| ABW          |
+| AIA          |
+| ANT          |
+| ASM          |
+| BMU          |
+| CCK          |
+| COK          |
+| CXR          |
+| CYM          |
+| ESH          |
+| FLK          |
+| GIB          |
+| GLP          |
+| GUM          |
+| HKG          |
+| HMD          |
+| IOT          |
+| MAC          |
+| MNP          |
+| MSR          |
+| MTQ          |
+| MYT          |
+| NFK          |
+| NIU          |
+| PCN          |
+| PRI          |
+| PSE          |
+| SGS          |
+| SHN          |
+| SJM          |
+| SPM          |
+| TCA          |
+| TKL          |
+| UMI          |
+| VGB          |
+| VIR          |
+| WLF          |
++--------------+
+37 rows in set (0.00 sec)
+
+mysql> SELECT Name AS 'Country Name' FROM Country WHERE IndepYear IS NULL;
++----------------------------------------------+
+| Country Name                                 |
++----------------------------------------------+
+| Aruba                                        |
+| Anguilla                                     |
+| Netherlands Antilles                         |
+| American Samoa                               |
+| Bermuda                                      |
+| Cocos (Keeling) Islands                      |
+| Cook Islands                                 |
+| Christmas Island                             |
+| Cayman Islands                               |
+| Western Sahara                               |
+| Falkland Islands                             |
+| Gibraltar                                    |
+| Guadeloupe                                   |
+| Guam                                         |
+| Hong Kong                                    |
+| Heard Island and McDonald Islands            |
+| British Indian Ocean Territory               |
+| Macao                                        |
+| Northern Mariana Islands                     |
+| Montserrat                                   |
+| Martinique                                   |
+| Mayotte                                      |
+| Norfolk Island                               |
+| Niue                                         |
+| Pitcairn                                     |
+| Puerto Rico                                  |
+| Palestine                                    |
+| South Georgia and the South Sandwich Islands |
+| Saint Helena                                 |
+| Svalbard and Jan Mayen                       |
+| Saint Pierre and Miquelon                    |
+| Turks and Caicos Islands                     |
+| Tokelau                                      |
+| United States Minor Outlying Islands         |
+| Virgin Islands, British                      |
+| Virgin Islands, U.S.                         |
+| Wallis and Futuna                            |
++----------------------------------------------+
+37 rows in set (0.00 sec)
+
+mysql> describe country;
++----------------+-------------+------+-----+---------+-------+
+| Field          | Type        | Null | Key | Default | Extra |
++----------------+-------------+------+-----+---------+-------+
+| Code           | char(3)     | NO   | PRI | NULL    |       |
+| Name           | char(52)    | NO   |     | NULL    |       |
+| Continent      | varchar(15) | NO   |     | Asia    |       |
+| Region         | varchar(26) | NO   |     | NULL    |       |
+| SurfaceArea    | float(10,2) | NO   |     | 0.00    |       |
+| IndepYear      | smallint(6) | YES  |     | NULL    |       |
+| Population     | int(11)     | NO   |     | 0       |       |
+| LifeExpectancy | float(3,1)  | YES  |     | NULL    |       |
+| GNP            | float(10,2) | YES  |     | NULL    |       |
+| GNPOld         | float(10,2) | YES  |     | NULL    |       |
+| LocalName      | varchar(45) | NO   |     | NULL    |       |
+| GovernmentForm | varchar(45) | NO   |     | NULL    |       |
+| HeadOfState    | varchar(60) | YES  |     | NULL    |       |
+| Capital        | int(11)     | YES  |     | NULL    |       |
+| Code2          | char(2)     | NO   |     | NULL    |       |
++----------------+-------------+------+-----+---------+-------+
+15 rows in set (0.00 sec)
+
+mysql> SELECT Name AS 'Country Name' FROM Country WHERE IndepYear IS NULL;
++----------------------------------------------+
+| Country Name                                 |
++----------------------------------------------+
+| Aruba                                        |
+| Anguilla                                     |
+| Netherlands Antilles                         |
+| American Samoa                               |
+| Bermuda                                      |
+| Cocos (Keeling) Islands                      |
+| Cook Islands                                 |
+| Christmas Island                             |
+| Cayman Islands                               |
+| Western Sahara                               |
+| Falkland Islands                             |
+| Gibraltar                                    |
+| Guadeloupe                                   |
+| Guam                                         |
+| Hong Kong                                    |
+| Heard Island and McDonald Islands            |
+| British Indian Ocean Territory               |
+| Macao                                        |
+| Northern Mariana Islands                     |
+| Montserrat                                   |
+| Martinique                                   |
+| Mayotte                                      |
+| Norfolk Island                               |
+| Niue                                         |
+| Pitcairn                                     |
+| Puerto Rico                                  |
+| Palestine                                    |
+| South Georgia and the South Sandwich Islands |
+| Saint Helena                                 |
+| Svalbard and Jan Mayen                       |
+| Saint Pierre and Miquelon                    |
+| Turks and Caicos Islands                     |
+| Tokelau                                      |
+| United States Minor Outlying Islands         |
+| Virgin Islands, British                      |
+| Virgin Islands, U.S.                         |
+| Wallis and Futuna                            |
++----------------------------------------------+
+37 rows in set (0.00 sec)
+
+mysql> SELECT Name, Continent FROM Country WHERE (population > 1000000000) AND (LifeExpectancy BETWEEN 70 AND 80);
++-------+-----------+
+| Name  | Continent |
++-------+-----------+
+| China | Asia      |
++-------+-----------+
+1 row in set (0.01 sec)
+
+mysql> SELECT Name AS NAMES FROM Country WHERE Continents LIKE 'North America' AND LIKE 'South America';
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE 'South America'' at line 1
+mysql> SELECT Name AS NAMES FROM Country WHERE Continents (LIKE 'North America') AND (LIKE 'South America');
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE 'North America') AND (LIKE 'South America')' at line 1
+mysql> SELECT Name AS NAMES FROM Country WHERE Continents (LIKE 'North America') AND (LIKE 'South America');
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE 'North America') AND (LIKE 'South America')' at line 1
+mysql> SELECT Name as NAMES FROM Country;
++----------------------------------------------+
+| NAMES                                        |
++----------------------------------------------+
+| Aruba                                        |
+| Afghanistan                                  |
+| Anguilla                                     |
+| Andorra                                      |
+| Netherlands Antilles                         |
+| Argentina                                    |
+| American Samoa                               |
+| Antigua and Barbuda                          |
+| Australia                                    |
+| Burundi                                      |
+| Bangladesh                                   |
+| Bulgaria                                     |
+| Bahrain                                      |
+| Bahamas                                      |
+| Bosnia and Herzegovina                       |
+| Belize                                       |
+| Bermuda                                      |
+| Brazil                                       |
+| Barbados                                     |
+| Brunei                                       |
+| Bhutan                                       |
+| Botswana                                     |
+| Canada                                       |
+| Cocos (Keeling) Islands                      |
+| Switzerland                                  |
+| Chile                                        |
+| China                                        |
+| Cameroon                                     |
+| Congo                                        |
+| Cook Islands                                 |
+| Comoros                                      |
+| Cuba                                         |
+| Christmas Island                             |
+| Cayman Islands                               |
+| Cyprus                                       |
+| Germany                                      |
+| Djibouti                                     |
+| Dominica                                     |
+| Denmark                                      |
+| Dominican Republic                           |
+| Ecuador                                      |
+| Egypt                                        |
+| Eritrea                                      |
+| Western Sahara                               |
+| Estonia                                      |
+| Finland                                      |
+| Fiji Islands                                 |
+| Falkland Islands                             |
+| France                                       |
+| Micronesia, Federated States of              |
+| Gabon                                        |
+| United Kingdom                               |
+| Ghana                                        |
+| Gibraltar                                    |
+| Guadeloupe                                   |
+| Gambia                                       |
+| Equatorial Guinea                            |
+| Grenada                                      |
+| Guatemala                                    |
+| Guam                                         |
+| Guyana                                       |
+| Hong Kong                                    |
+| Heard Island and McDonald Islands            |
+| Indonesia                                    |
+| India                                        |
+| British Indian Ocean Territory               |
+| Ireland                                      |
+| Iran                                         |
+| Italy                                        |
+| Jamaica                                      |
+| Jordan                                       |
+| Japan                                        |
+| Kazakstan                                    |
+| Kenya                                        |
+| Kyrgyzstan                                   |
+| Kiribati                                     |
+| Saint Kitts and Nevis                        |
+| Kuwait                                       |
+| Laos                                         |
+| Lebanon                                      |
+| Liberia                                      |
+| Libyan Arab Jamahiriya                       |
+| Saint Lucia                                  |
+| Liechtenstein                                |
+| Sri Lanka                                    |
+| Lesotho                                      |
+| Lithuania                                    |
+| Latvia                                       |
+| Macao                                        |
+| Morocco                                      |
+| Monaco                                       |
+| Moldova                                      |
+| Madagascar                                   |
+| Maldives                                     |
+| Marshall Islands                             |
+| Macedonia                                    |
+| Malta                                        |
+| Myanmar                                      |
+| Mongolia                                     |
+| Northern Mariana Islands                     |
+| Montserrat                                   |
+| Martinique                                   |
+| Mauritius                                    |
+| Malawi                                       |
+| Malaysia                                     |
+| Mayotte                                      |
+| Namibia                                      |
+| Niger                                        |
+| Norfolk Island                               |
+| Nigeria                                      |
+| Niue                                         |
+| Netherlands                                  |
+| Norway                                       |
+| Nepal                                        |
+| Nauru                                        |
+| New Zealand                                  |
+| Pakistan                                     |
+| Pitcairn                                     |
+| Peru                                         |
+| Philippines                                  |
+| Palau                                        |
+| Papua New Guinea                             |
+| Poland                                       |
+| Puerto Rico                                  |
+| Portugal                                     |
+| Palestine                                    |
+| Qatar                                        |
+| Romania                                      |
+| Russian Federation                           |
+| Rwanda                                       |
+| Sudan                                        |
+| Singapore                                    |
+| South Georgia and the South Sandwich Islands |
+| Saint Helena                                 |
+| Svalbard and Jan Mayen                       |
+| Solomon Islands                              |
+| Sierra Leone                                 |
+| San Marino                                   |
+| Somalia                                      |
+| Saint Pierre and Miquelon                    |
+| Suriname                                     |
+| Slovakia                                     |
+| Slovenia                                     |
+| Sweden                                       |
+| Swaziland                                    |
+| Syria                                        |
+| Turks and Caicos Islands                     |
+| Thailand                                     |
+| Tokelau                                      |
+| Tonga                                        |
+| Trinidad and Tobago                          |
+| Tunisia                                      |
+| Tuvalu                                       |
+| Tanzania                                     |
+| Uganda                                       |
+| United States Minor Outlying Islands         |
+| United States                                |
+| Uzbekistan                                   |
+| Holy See (Vatican City State)                |
+| Saint Vincent and the Grenadines             |
+| Virgin Islands, British                      |
+| Virgin Islands, U.S.                         |
+| Vanuatu                                      |
+| Wallis and Futuna                            |
+| Samoa                                        |
+| Yemen                                        |
+| South Africa                                 |
+| Zambia                                       |
+| Zimbabwe                                     |
++----------------------------------------------+
+169 rows in set (0.00 sec)
+
+mysql> SELECT Name AS NAMES FROM Country WHERE Continent (LIKE 'North America') AND (LIKE 'South America');
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE 'North America') AND (LIKE 'South America')' at line 1
+mysql> SELECT Name AS NAMES FROM Country WHERE Continent (LIKE 'North America');
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKE 'North America')' at line 1
+mysql> SELECT Name AS NAMES FROM Country WHERE Continent LIKE 'North America';
++----------------------------------+
+| NAMES                            |
++----------------------------------+
+| Aruba                            |
+| Anguilla                         |
+| Netherlands Antilles             |
+| Antigua and Barbuda              |
+| Bahamas                          |
+| Belize                           |
+| Bermuda                          |
+| Barbados                         |
+| Canada                           |
+| Cuba                             |
+| Cayman Islands                   |
+| Dominica                         |
+| Dominican Republic               |
+| Guadeloupe                       |
+| Grenada                          |
+| Guatemala                        |
+| Jamaica                          |
+| Saint Kitts and Nevis            |
+| Saint Lucia                      |
+| Montserrat                       |
+| Martinique                       |
+| Puerto Rico                      |
+| Saint Pierre and Miquelon        |
+| Turks and Caicos Islands         |
+| Trinidad and Tobago              |
+| United States                    |
+| Saint Vincent and the Grenadines |
+| Virgin Islands, British          |
+| Virgin Islands, U.S.             |
++----------------------------------+
+29 rows in set (0.00 sec)
+
+mysql> SELECT Name AS NAMES FROM Country WHERE Continent LIKE 'North America' AND Continent LIKE 'South America');
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+mysql> SELECT Name AS NAMES FROM Country WHERE Continent LIKE 'North America' AND Continent LIKE 'South America';
+Empty set (0.00 sec)
+
+mysql> SELECT Name AS NAMES FROM Country WHERE Continent LIKE 'North America' OR Continent LIKE  ('South America');
++----------------------------------+
+| NAMES                            |
++----------------------------------+
+| Aruba                            |
+| Anguilla                         |
+| Netherlands Antilles             |
+| Argentina                        |
+| Antigua and Barbuda              |
+| Bahamas                          |
+| Belize                           |
+| Bermuda                          |
+| Brazil                           |
+| Barbados                         |
+| Canada                           |
+| Chile                            |
+| Cuba                             |
+| Cayman Islands                   |
+| Dominica                         |
+| Dominican Republic               |
+| Ecuador                          |
+| Falkland Islands                 |
+| Guadeloupe                       |
+| Grenada                          |
+| Guatemala                        |
+| Guyana                           |
+| Jamaica                          |
+| Saint Kitts and Nevis            |
+| Saint Lucia                      |
+| Montserrat                       |
+| Martinique                       |
+| Peru                             |
+| Puerto Rico                      |
+| Saint Pierre and Miquelon        |
+| Suriname                         |
+| Turks and Caicos Islands         |
+| Trinidad and Tobago              |
+| United States                    |
+| Saint Vincent and the Grenadines |
+| Virgin Islands, British          |
+| Virgin Islands, U.S.             |
++----------------------------------+
+37 rows in set (0.00 sec)
+
+mysql> SELECT LocalName AS NAMES FROM Country WHERE Continent LIKE 'North America' OR Continent LIKE  ('South America');
++-------------------------------------+
+| NAMES                               |
++-------------------------------------+
+| Aruba                               |
+| Anguilla                            |
+| Nederlandse Antillen                |
+| Argentina                           |
+| Antigua and Barbuda                 |
+| The Bahamas                         |
+| Belize                              |
+| Bermuda                             |
+| Brasil                              |
+| Barbados                            |
+| Canada                              |
+| Chile                               |
+| Cuba                                |
+| Cayman Islands                      |
+| Dominica                            |
+| Republica Dominicana                |
+| Ecuador                             |
+| Falkland Islands                    |
+| Guadeloupe                          |
+| Grenada                             |
+| Guatemala                           |
+| Guyana                              |
+| Jamaica                             |
+| Saint Kitts and Nevis               |
+| Saint Lucia                         |
+| Montserrat                          |
+| Martinique                          |
+| Peru/Piruw                          |
+| Puerto Rico                         |
+| Saint-Pierre-et-Miquelon            |
+| Suriname                            |
+| The Turks and Caicos Islands        |
+| Trinidad and Tobago                 |
+| United States                       |
+| Saint Vincent and the Grenadines    |
+| British Virgin Islands              |
+| Virgin Islands of the United States |
++-------------------------------------+
+37 rows in set (0.00 sec)
+
+mysql> SELECT LocalName AS NAMES FROM Country WHERE Continent LIKE 'North America' OR Continent LIKE  ('South America');
++-------------------------------------+
+| NAMES                               |
++-------------------------------------+
+| Aruba                               |
+| Anguilla                            |
+| Nederlandse Antillen                |
+| Argentina                           |
+| Antigua and Barbuda                 |
+| The Bahamas                         |
+| Belize                              |
+| Bermuda                             |
+| Brasil                              |
+| Barbados                            |
+| Canada                              |
+| Chile                               |
+| Cuba                                |
+| Cayman Islands                      |
+| Dominica                            |
+| Republica Dominicana                |
+| Ecuador                             |
+| Falkland Islands                    |
+| Guadeloupe                          |
+| Grenada                             |
+| Guatemala                           |
+| Guyana                              |
+| Jamaica                             |
+| Saint Kitts and Nevis               |
+| Saint Lucia                         |
+| Montserrat                          |
+| Martinique                          |
+| Peru/Piruw                          |
+| Puerto Rico                         |
+| Saint-Pierre-et-Miquelon            |
+| Suriname                            |
+| The Turks and Caicos Islands        |
+| Trinidad and Tobago                 |
+| United States                       |
+| Saint Vincent and the Grenadines    |
+| British Virgin Islands              |
+| Virgin Islands of the United States |
++-------------------------------------+
+37 rows in set (0.00 sec)
+
+mysql> SELECT LocalName AS NAMES FROM Country WHERE Continent LIKE 'North America' OR (Continent LIKE 'South America');
++-------------------------------------+
+| NAMES                               |
++-------------------------------------+
+| Aruba                               |
+| Anguilla                            |
+| Nederlandse Antillen                |
+| Argentina                           |
+| Antigua and Barbuda                 |
+| The Bahamas                         |
+| Belize                              |
+| Bermuda                             |
+| Brasil                              |
+| Barbados                            |
+| Canada                              |
+| Chile                               |
+| Cuba                                |
+| Cayman Islands                      |
+| Dominica                            |
+| Republica Dominicana                |
+| Ecuador                             |
+| Falkland Islands                    |
+| Guadeloupe                          |
+| Grenada                             |
+| Guatemala                           |
+| Guyana                              |
+| Jamaica                             |
+| Saint Kitts and Nevis               |
+| Saint Lucia                         |
+| Montserrat                          |
+| Martinique                          |
+| Peru/Piruw                          |
+| Puerto Rico                         |
+| Saint-Pierre-et-Miquelon            |
+| Suriname                            |
+| The Turks and Caicos Islands        |
+| Trinidad and Tobago                 |
+| United States                       |
+| Saint Vincent and the Grenadines    |
+| British Virgin Islands              |
+| Virgin Islands of the United States |
++-------------------------------------+
+37 rows in set (0.00 sec)
+
+mysql> SELECT LocalName AS NAMES FROM Country WHERE (Continent LIKE 'North America') OR (Continent LIKE 'South America');
++-------------------------------------+
+| NAMES                               |
++-------------------------------------+
+| Aruba                               |
+| Anguilla                            |
+| Nederlandse Antillen                |
+| Argentina                           |
+| Antigua and Barbuda                 |
+| The Bahamas                         |
+| Belize                              |
+| Bermuda                             |
+| Brasil                              |
+| Barbados                            |
+| Canada                              |
+| Chile                               |
+| Cuba                                |
+| Cayman Islands                      |
+| Dominica                            |
+| Republica Dominicana                |
+| Ecuador                             |
+| Falkland Islands                    |
+| Guadeloupe                          |
+| Grenada                             |
+| Guatemala                           |
+| Guyana                              |
+| Jamaica                             |
+| Saint Kitts and Nevis               |
+| Saint Lucia                         |
+| Montserrat                          |
+| Martinique                          |
+| Peru/Piruw                          |
+| Puerto Rico                         |
+| Saint-Pierre-et-Miquelon            |
+| Suriname                            |
+| The Turks and Caicos Islands        |
+| Trinidad and Tobago                 |
+| United States                       |
+| Saint Vincent and the Grenadines    |
+| British Virgin Islands              |
+| Virgin Islands of the United States |
++-------------------------------------+
+37 rows in set (0.00 sec)
+
+mysql> exit
